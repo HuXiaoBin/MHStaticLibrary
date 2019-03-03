@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B1BD47E1D48ADAC00309A04 /* MHLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B8864DA1D4892910080ED03 /* MHLibrary.h */; };
+		2B1BD47F1D48ADAC00309A04 /* MHAlertView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B8864D81D4892910080ED03 /* MHAlertView.h */; };
+		2B1BD4801D48ADAC00309A04 /* MHTipUtils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B8864DB1D4892910080ED03 /* MHTipUtils.h */; };
+		2B8864DD1D4892910080ED03 /* MHAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8864D91D4892910080ED03 /* MHAlertView.m */; };
+		2B8864DE1D4892910080ED03 /* MHTipUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8864DC1D4892910080ED03 /* MHTipUtils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2B8864CA1D4892600080ED03 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				2B1BD47E1D48ADAC00309A04 /* MHLibrary.h in CopyFiles */,
+				2B1BD47F1D48ADAC00309A04 /* MHAlertView.h in CopyFiles */,
+				2B1BD4801D48ADAC00309A04 /* MHTipUtils.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2B8864CC1D4892600080ED03 /* libMHStaticLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMHStaticLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B8864D81D4892910080ED03 /* MHAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHAlertView.h; sourceTree = "<group>"; };
+		2B8864D91D4892910080ED03 /* MHAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHAlertView.m; sourceTree = "<group>"; };
+		2B8864DA1D4892910080ED03 /* MHLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHLibrary.h; sourceTree = "<group>"; };
+		2B8864DB1D4892910080ED03 /* MHTipUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHTipUtils.h; sourceTree = "<group>"; };
+		2B8864DC1D4892910080ED03 /* MHTipUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHTipUtils.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B8864C91D4892600080ED03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B8864C31D4892600080ED03 = {
+			isa = PBXGroup;
+			children = (
+				2B8864CE1D4892600080ED03 /* MHStaticLibrary */,
+				2B8864CD1D4892600080ED03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B8864CD1D4892600080ED03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B8864CC1D4892600080ED03 /* libMHStaticLibrary.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B8864CE1D4892600080ED03 /* MHStaticLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				2B8864DA1D4892910080ED03 /* MHLibrary.h */,
+				2B8864D81D4892910080ED03 /* MHAlertView.h */,
+				2B8864D91D4892910080ED03 /* MHAlertView.m */,
+				2B8864DB1D4892910080ED03 /* MHTipUtils.h */,
+				2B8864DC1D4892910080ED03 /* MHTipUtils.m */,
+			);
+			path = MHStaticLibrary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B8864CB1D4892600080ED03 /* MHStaticLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B8864D51D4892600080ED03 /* Build configuration list for PBXNativeTarget "MHStaticLibrary" */;
+			buildPhases = (
+				2B8864C81D4892600080ED03 /* Sources */,
+				2B8864C91D4892600080ED03 /* Frameworks */,
+				2B8864CA1D4892600080ED03 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MHStaticLibrary;
+			productName = MHStaticLibrary;
+			productReference = 2B8864CC1D4892600080ED03 /* libMHStaticLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B8864C41D4892600080ED03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = xbh;
+				TargetAttributes = {
+					2B8864CB1D4892600080ED03 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2B8864C71D4892600080ED03 /* Build configuration list for PBXProject "MHStaticLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2B8864C31D4892600080ED03;
+			productRefGroup = 2B8864CD1D4892600080ED03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B8864CB1D4892600080ED03 /* MHStaticLibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B8864C81D4892600080ED03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8864DD1D4892910080ED03 /* MHAlertView.m in Sources */,
+				2B8864DE1D4892910080ED03 /* MHTipUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2B8864D31D4892600080ED03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2B8864D41D4892600080ED03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B8864D61D4892600080ED03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2B8864D71D4892600080ED03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B8864C71D4892600080ED03 /* Build configuration list for PBXProject "MHStaticLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8864D31D4892600080ED03 /* Debug */,
+				2B8864D41D4892600080ED03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B8864D51D4892600080ED03 /* Build configuration list for PBXNativeTarget "MHStaticLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8864D61D4892600080ED03 /* Debug */,
+				2B8864D71D4892600080ED03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B8864C41D4892600080ED03 /* Project object */;
+}
